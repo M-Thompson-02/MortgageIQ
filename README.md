@@ -21,6 +21,4 @@ A python program that helps users calculate:
 - Both calculation methods are fully tested in Jupyter Notebook.
 
 ## Installation
-1. Clone this repository:
-   '''bash
-   git clone https://github.com/monicastaten13-ux/Housing-Calculator.git
+1. Clone this repository: https://github.com/monicastaten13-ux/Housing-Calculator.git
