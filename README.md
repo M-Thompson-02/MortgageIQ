@@ -44,10 +44,10 @@ The Python script runs the same calculations without the notebook interface. The
 2. Install Visual Studio Code
 3. Clone this repository or download the ZIP
 4. Open the project folder in VS Code
-5. Open "housing_calculator.py"
+5. Open "Housing-Calculator.py"
 6. Run the file using:
    '''bash
-   python housing_calculator.py
+   python Housing-Calculator.py
 
 ## Functionality
 
