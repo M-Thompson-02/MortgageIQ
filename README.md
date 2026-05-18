@@ -1,4 +1,4 @@
-# Housing-Calculator
+# MortgageIQ
 A python program that helps users calculate:
 1. The number of months needed to save for a down payment on a home the user is interested in.
 2. The percentage of the user's monthly income that they'll need to save in order to reach their down payment goal in x amount of months. 
@@ -13,7 +13,7 @@ A python program that helps users calculate:
 - Users can choose between two different calculations:
   1. Number of months needed to reach a down payment.
   2. The percentage of savings required to reach a down payment goal within a set number of months.
-- Supports whole numbers and decimals for the first calculation and since the second calculation gives more detailed information the user will need to input decimals in order to get an accurate calculation.
+- Supports whole numbers and decimals for the first calculation since the second calculation gives more detailed information the user will need to input decimals in order to get an accurate dollar amount.
 - Both calculations account for the annual rate of return on the user's savings/investments.
 - Handles invalid input with guardrails
 - Clear output for both calculations
@@ -22,16 +22,16 @@ A python program that helps users calculate:
 ## Installation
 1. Clone this repository:
    ''' bash
-   git clone https://github.com/monicastaten13-ux/Housing-Calculator.git
-2. cd Housing-Calculator
-3. jupyter notebook Housing-Calculator.ipynb
+   git clone https://github.com/monicastaten13-ux/MortgageIQ.git
+2. cd MortgageIQ
+3. jupyter notebook MortgageIQ.ipynb
 
 ## Usage
 ### Running the code in Jupyter Notebook ('.ipynb')
 
 The notebook is designed to be ran interactively.
 
-1. Open "Housing-Calculator.ipynb"
+1. Open "MortgageIQ.ipynb"
 2. Select "Restart the kernels and run all cells."
 3. Follow the prompts for the user input.
 4. Once the input is collected the appropriate calculation will display at the very bottom of the notebook. 
@@ -44,10 +44,10 @@ The Python script runs the same calculations without the notebook interface. The
 2. Install Visual Studio Code
 3. Clone this repository or download the ZIP
 4. Open the project folder in VS Code
-5. Open "Housing-Calculator.py"
+5. Open "MortgageIQ.py"
 6. Run the file using:
    '''bash
-   python Housing-Calculator.py
+   python MortgageIQ.py
 
 ## Functionality
 
