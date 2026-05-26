@@ -1,19 +1,25 @@
 # MortgageIQ
-A python program that helps users calculate:
-1. The number of months needed to save for a down payment on a home the user is interested in.
-2. The percentage of the user's monthly income that they'll need to save in order to reach their down payment goal in x amount of months. 
+MortgageIQ is a Python-based housing affordability calculator that helps users determine:
+1. How long it will take to save for a home down payment.
+2. The percentage of income required to reach a savings goal within a target timeframe. 
 
-## Table of Contents
-- [Features] (#features)
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Functionality] (#functionality)
+## Run Instantly (no setup required)
+👉 https://colab.research.google.com/drive/1rdRPLHRlSEaXfGqrqXCyzfQ5az6r9Mrw?usp=sharing
+
+---
+
+## Example Output
+<img width="736" height="196" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/b493ef2e-011d-4f35-aa17-278be82c52fc" />
+This is an example output from the first calculation method.
+
+<img width="565" height="199" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/81944638-1b6a-4b8e-8b35-36bca63857e7" />
+This is an example output from the second calculation method.
 
 ## Features
-- Users can choose between two different calculations:
-  1. Number of months needed to reach a down payment.
-  2. The percentage of savings required to reach a down payment goal within a set number of months.
-- Supports whole numbers and decimals for the first calculation since the second calculation gives more detailed information the user will need to input decimals in order to get an accurate dollar amount.
+- Dual calculation modes:
+  1. Time required to save for a down payment
+  2. Required savings rate to hit a goal timeline
+- Handles real-world financial inputs (salary, investment return, etc.)
 - Both calculations account for the annual rate of return on the user's savings/investments.
 - Handles invalid input with guardrails
 - Clear output for both calculations
