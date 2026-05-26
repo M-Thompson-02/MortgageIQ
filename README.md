@@ -10,10 +10,8 @@ MortgageIQ is a Python-based housing affordability calculator that helps users d
 
 ## Example Output
 <img width="736" height="196" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/b493ef2e-011d-4f35-aa17-278be82c52fc" />
-This is an example output from the first calculation method.
 
 <img width="565" height="199" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/81944638-1b6a-4b8e-8b35-36bca63857e7" />
-This is an example output from the second calculation method.
 
 ## Features
 - Dual calculation modes:
